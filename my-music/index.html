@@ -1,0 +1,607 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="music.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <title>Document</title>
+    </head>
+    <body class="bg-dark">
+        
+
+        
+        <div class="Sidebar" id="sidebar">
+            <div class="uMusics">uMusics</div>
+            <a href="#">HOME</a>
+            <a class="mt-4" href="#">ALBUMS</a>
+            <a class="mt-4" href="#">ARTISTS</a>
+        </div>
+
+       
+        <div class="content">
+           
+            <span class="hamburger" id="hamburger">&#9776;</span>
+        </div>
+        <section class="first-tag">
+            <div class="container">
+                <img
+                    class="img1"
+                    src="https://mdusmanansari.github.io/uMusic-Player/img/Tokyo-Gul.jpg"
+                />
+                <div class="Text">
+                    <h1 class="fs-1.5rem fw-bold">DISCOVER FOR YOU</h1>
+                    <button class="fw-bold">PLAYNOW</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="fw-bold fs-1 bg-light me-5">my favorite</div>
+
+        <div class="card-row bg-dark">
+            <div class="card bg-dark">
+                <img
+                    src="https://mdusmanansari.github.io/uMusic-Player/img/Ignite.jpg"
+                    alt="Card 2"
+                />
+                <div class="card-text">Ignite</div>
+                <p>Alan Walker</p>
+            </div>
+            <div class="card bg-dark">
+                <img
+                    src="https://mdusmanansari.github.io/uMusic-Player/img/Faded.jpg"
+                    alt="Card 3"
+                />
+                <div class="card-text">Faded</div>
+                <p>Alan Walker</p>
+            </div>
+            <div class="card bg-dark">
+                <img
+                    src="https://mdusmanansari.github.io/uMusic-Player/img/letMeLove.jpg"
+                    alt="Card 4"
+                />
+                <div class="card-text">let me love</div>
+                <p>Juston Beber</p>
+            </div>
+            <div class="card bg-dark">
+                <img
+                    src="https://mdusmanansari.github.io/uMusic-Player/img/ShapeOfYou.jpg"
+                    alt="Card 5"
+                />
+                <div class="card-text">Shape</div>
+                <p>Ed shereen</p>
+            </div>
+            <div class="card bg-dark">
+                <img
+                    src="https://mdusmanansari.github.io/uMusic-Player/img/Darkside.jpg"
+                    alt="Card 6"
+                />
+                <div class="card-text">Darkside</div>
+                <p>Alan Walker</p>
+            </div>
+        </div>
+
+        <section>
+            <div>ANIME SONG</div>
+            <div class="text-white me-5">my favorite</div>
+            <div class="card-row bg-dark">
+                <div class="card bg-dark">
+                    <img
+                        src="https://mdusmanansari.github.io/uMusic-Player/img/Ignite.jpg"
+                        alt="Card 2"
+                    />
+                    <div class="card-text">Ignite</div>
+                    <p>Alan Walker</p>
+                </div>
+                <div class="card bg-dark">
+                    <img
+                        src="https://mdusmanansari.github.io/uMusic-Player/img/Faded.jpg"
+                        alt="Card 3"
+                    />
+                    <div class="card-text">Faded</div>
+                    <p>Alan Walker</p>
+                </div>
+                <div class="card bg-dark">
+                    <img
+                        src="https://mdusmanansari.github.io/uMusic-Player/img/letMeLove.jpg"
+                        alt="Card 4"
+                    />
+                    <div class="card-text">let me love</div>
+                    <p>Juston Beber</p>
+                </div>
+                <div class="card bg-dark">
+                    <img
+                        src="https://mdusmanansari.github.io/uMusic-Player/img/ShapeOfYou.jpg"
+                        alt="Card 5"
+                    />
+                    <div class="card-text">Shape</div>
+                    <p>Ed shereen</p>
+                </div>
+                <div class="card bg-dark">
+                    <img
+                        src="https://mdusmanansari.github.io/uMusic-Player/img/Darkside.jpg"
+                        alt="Card 6"
+                    />
+                    <div class="card-text">Darkside</div>
+                    <p>Alan Walker</p>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="music.js"></script>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="music.css" />
+
+        <title>Hello, world!</title>
+    </head>
+    <body>
+        
+        <main class="main">
+            <div class="navOpen-btn">
+                <span class="material-icons"></span>
+            </div>
+
+        <!-- Sidebar -->
+         
+         <section class="nav-sec bg-light"> 
+
+                <div class="nav-sec__logo ">
+                    <h1 class="nav-sec__logo-inner ">
+                        <span class="nav-sec__logo-inner--text ">
+                            uMusics 
+                        </span>
+                       <span class="material-icons nav-sec__logo-inner--icon">
+                            equalizer
+                        </span> 
+                    </h1>
+                </div>
+
+                <div class="nav-sec__list-and-legal">
+ 
+                    <ul class="nav-sec__list">
+                        <li class="nav-sec__item">
+                           <span class="nav-sec__item__icon material-icons">
+                            home
+                            </span>
+                            <span class="nav-sec__item__text">Home</span>
+                        </li>
+                        <li class="nav-sec__item">
+                           <span class="nav-sec__item__icon material-icons">
+                                album
+                            </span>
+                            <span class="nav-sec__item__text">Albums</span>
+                        </li>
+                        <li class="nav-sec__item">
+                           <span class="nav-sec__item__icon material-icons">
+                                mic
+                            </span>
+                            <span class="nav-sec__item__text">Artists</span>
+                        </li>
+                    </ul>
+                    
+                   <footer class="nav-sec__copyright">
+                        <p class="copyright__text"> Copyright @ Md Usman Ansari 2020</p>
+                    </footer>
+                </div>
+                
+            </section>
+        <section class="music-sec">
+            <!-- Top Cover Start-->
+
+            <div class="cover">
+                <img
+                    src="https://mdusmanansari.github.io/uMusic-Player/img/Tokyo-Gul.jpg"
+                    alt=""
+                    class="cover__img"
+                    id="recommended-image"
+                />
+                <div class="cover__text">
+                    <h1 class="cover__title text-white">Discover for you</h1>
+                    <a
+                        href="#"
+                        class="btn cover__play-btn"
+                        id="recommended-play-btn"
+                        data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                    >
+                        <span>Play Now</span>
+                       <span class="material-icons"> play_circle_filled </span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Top Cover End-->
+
+            <div class="music-con">
+                <h1 class="heading-sec">My Favorites</h1>
+
+                <!-- Music List Scroll Start-->
+
+                <div class="music-con__list scroll-bar-hide">
+                    <!----<div class="music-con__item">
+                                <div class="music-con__img">
+                                    <img src="img/Cover-2.jpg" alt="">
+                                    <span class="music-con__play-btn">
+                                        <span class="material-icons play-btn">
+                                            play_circle_outline
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="music-list__text">
+                                    <h3 class="heading-3">   Gunaah  </h3>
+                                    <p class="music-artist-name">  Max Glover, Carl Brown </p>
+                                </div>
+                                
+                            </div> -->
+
+                    <div class="music-con__item" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3">
+                        <div class="music-con__img">
+                            <img
+                                src="https://mdusmanansari.github.io/uMusic-Player/img/Ignite.jpg"
+                                alt=""
+                            />
+                            <span class="music-con__play-btn">
+                                <span class="material-icons play-btn">
+                                    play_circle_outline
+                                </span>
+                            </span>
+                        </div>
+                        <div class="music-list__text">
+                            <h3 class="heading-3">Ignite</h3>
+                            <p class="music-artist-name">Alan Walker</p>
+                        </div>
+                    </div>
+                    <div class="music-con__item" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3">
+                        <div class="music-con__img">
+                            <img src="https://mdusmanansari.github.io/uMusic-Player/img/Faded.jpg" alt="" />
+                            <span class="music-con__play-btn">
+                                <span class="material-icons play-btn">
+                                    play_circle_outline
+                                </span>
+                            </span>
+                        </div>
+                        <div class="music-list__text">
+                            <h3 class="heading-3">Faded</h3>
+                            <p class="music-artist-name">Alan Walker</p>
+                        </div>
+                    </div>
+                    <div class="music-con__item" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3">
+                        <div class="music-con__img">
+                            <img src="https://mdusmanansari.github.io/uMusic-Player/img/letMeLove.jpg" alt="" />
+                            <span class="music-con__play-btn">
+                                <span class="material-icons play-btn">
+                                    play_circle_outline
+                                </span>
+                            </span>
+                        </div>
+                        <div class="music-list__text">
+                            <h3 class="heading-3">Let Me Love</h3>
+                            <p class="music-artist-name">Justin Bieber</p>
+                        </div>
+                    </div>
+                    <div class="music-con__item" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3">
+                        <div class="music-con__img">
+                            <img src="https://mdusmanansari.github.io/uMusic-Player/img/ShapeOfYou.jpg" alt="" />
+                            <span class="music-con__play-btn">
+                                <span class="material-icons play-btn">
+                                    play_circle_outline
+                                </span>
+                            </span>
+                        </div>
+                        <div class="music-list__text">
+                            <h3 class="heading-3">Shape of you</h3>
+                            <p class="music-artist-name">Ed sharen</p>
+                        </div>
+                    </div>
+                <div class="music-con__item" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3">
+                    
+                        <div class="music-con__img">
+                            <img src="https://mdusmanansari.github.io/uMusic-Player/img/Darkside.jpg" alt="" />
+                            <span class="music-con__play-btn">
+                                <span class="material-icons play-btn">
+                                    play_circle_outline
+                                </span>
+                            </span>
+                        </div>
+                        <div class="music-list__text">
+                            <h3 class="heading-3">Darkside</h3>
+                            <p class="music-artist-name">Alan Walker</p>
+                        </div>
+                    </div>
+                    <div class="music-con__item" data-audio="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3">
+                        <div class="music-con__img">
+                            <img src="https://mdusmanansari.github.io/uMusic-Player/img/End-Of-Time.jpg" alt="" />
+                            <span class="music-con__play-btn">
+                                <span class="material-icons play-btn">
+                                    play_circle_outline
+                                </span>
+                            </span>
+                        </div>
+                        <div class="music-list__text">
+                            <h3 class="heading-3">End Of Time</h3>
+                            <p class="music-artist-name">Alan Walker</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Music List Scroll End-->
+            </div>
+
+            <div class="music-hor music-con">
+
+                    <h1 class="music-con__heading heading-sec">Anime Songs</h1>
+
+                    <div class="music-hor__list">
+
+                         <!-- <div class="music-hor__item">
+                            <div class="music-hor__item-inner">
+                                <img src="img/album - 3.png" class="music-hor__img">
+                                <h3 class="music-artist-name">Let me love</h3>
+                            </div>
+
+                            <div class="music-hor__item-inner"> 
+
+                                <p class="music-hor__music-duration">02 : 30</p>
+            
+                                <div class="music-hor__btn">
+                                    <span class="material-icons">
+                                        play_circle_filled
+                                       </span>  
+                                </div>
+                                                       
+                            </div>
+
+                        </div>                            -->
+
+                    <div class="music-hor__item">
+                                        <div class="music-hor__item-inner">
+                                            <img src="https://mdusmanansari.github.io/uMusic-Player/img/Akame.jpg" class="music-hor__img">
+                                            <h3 class="music-artist-name">Akame Ga Kill</h3>
+                                        </div>
+                                        <div class="music-hor__item-inner"> 
+                                            <p class="music-hor__music-duration">02:44</p>                  
+                                        </div>
+                                    </div> <div class="music-hor__item">
+                                        <div class="music-hor__item-inner">
+                                            <img src="https://mdusmanansari.github.io/uMusic-Player/img/Shigatsu.jpg" class="music-hor__img">
+                                            <h3 class="music-artist-name">Shigatsu</h3>
+                                        </div>
+                                        <div class="music-hor__item-inner"> 
+                                            <p class="music-hor__music-duration">04:08</p>                  
+                                        </div>
+                                    </div> <div class="music-hor__item">
+                                        <div class="music-hor__item-inner">
+                                            <img src="https://mdusmanansari.github.io/uMusic-Player/img/Tokyo-Gul.jpg" class="music-hor__img">
+                                            <h3 class="music-artist-name">Tokyo Gul</h3>
+                                        </div>
+                                        <div class="music-hor__item-inner"> 
+                                            <p class="music-hor__music-duration">03:43</p>                  
+                                        </div>
+                                    </div> <div class="music-hor__item">
+                                        <div class="music-hor__item-inner">
+                                            <img src="https://mdusmanansari.github.io/uMusic-Player/img/your-name.jpg" class="music-hor__img">
+                                            <h3 class="music-artist-name">Your Name</h3>
+                                        </div>
+                                        <div class="music-hor__item-inner"> 
+                                            <p class="music-hor__music-duration">05:43</p>                  
+                                        </div>
+                                    </div> 
+                                </div>
+                           </div>
+            
+                                    <div class="music-con">
+
+                    <h1 class="heading-sec">Sad Songs</h1>
+
+                    <!-- Music List Scroll Start 2-->
+
+                    <div class="music-con__list scroll-bar-hide">
+
+                            <!-- <div class="music-con__item">
+                                <div class="music-con__img">
+                                    <img src="img/Cover-2.jpg" alt="">
+                                    <span class="music-con__play-btn">
+                                        <span class="material-icons play-btn">
+                                            play_circle_outline
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="music-list__text">
+                                    <h3 class="heading-3">   Gunaah  </h3>
+                                    <p class="music-artist-name">  Max Glover, Carl Brown </p>
+                                </div>
+                                
+                            </div>                             -->
+
+                    <div class="music-con__item">
+                                <div class="music-con__img">
+                                    <img src="https://mdusmanansari.github.io/uMusic-Player/img/Gunaah.jpg" alt="">
+                                    <span class="music-con__play-btn">
+                                        <span class="material-icons play-btn">
+                                            play_circle_outline
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="music-list__text">
+                                    <h3 class="heading-3"> Gunaah </h3>
+                                    <p class="music-artist-name">  Rana Mazumder </p>
+                                </div>
+                            </div><div class="music-con__item">
+                                <div class="music-con__img">
+                                    <img src="https://mdusmanansari.github.io/uMusic-Player/img/Yaara.jpg" alt="">
+                                    <span class="music-con__play-btn">
+                                        <span class="material-icons play-btn">
+                                            play_circle_outline
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="music-list__text">
+                                    <h3 class="heading-3"> Yaara </h3>
+                                    <p class="music-artist-name">  Arnab Dutta </p>
+                                </div>
+                            </div><div class="music-con__item">
+                                <div class="music-con__img">
+                                    <img src="https://mdusmanansari.github.io/uMusic-Player/img/Tu-Hi-Hain.jpg" alt="">
+                                    <span class="music-con__play-btn">
+                                        <span class="material-icons play-btn">
+                                            play_circle_outline
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="music-list__text">
+                                    <h3 class="heading-3"> Tu Hi Hai </h3>
+                                    <p class="music-artist-name">  Rahul Mishra </p>
+                                </div>
+                            </div><div class="music-con__item">
+                                <div class="music-con__img">
+                                    <img src="https://mdusmanansari.github.io/uMusic-Player/img/Tip-Tip.jpg" alt="">
+                                    <span class="music-con__play-btn">
+                                        <span class="material-icons play-btn">
+                                            play_circle_outline
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="music-list__text">
+                                    <h3 class="heading-3"> Tip Tip </h3>
+                                    <p class="music-artist-name">  Sajal Aly , Naveed Nashad </p>
+                                </div>
+                            </div><div class="music-con__item">
+                                <div class="music-con__img">
+                                    <img src="https://mdusmanansari.github.io/uMusic-Player/img/Ab-Na-Phir-Se.jpg" alt="">
+                                    <span class="music-con__play-btn">
+                                        <span class="material-icons play-btn">
+                                            play_circle_outline
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="music-list__text">
+                                    <h3 class="heading-3"> Ab-Na-Phir-Se </h3>
+                                    <p class="music-artist-name">  Yasser Desai </p>
+                                </div>
+                            </div></div>
+
+                      <!-- Music List Scroll End 2-->
+                 </div>
+        
+
+                </div>
+
+
+            </main>
+            <audio id="global-audio" preload="none" style="display:none"></audio>
+            <!-- Audio Player Box -->
+<!--<div class="audio-box">
+  <div class="audio-info">
+    <img src="https://mdusmanansari.github.io/uMusic-Player/img/Ignite.jpg" class="audio-thumb" alt="song image">
+    <div>
+      <h4 id="audio-title">Ignite</h4>
+      <p id="audio-artist">Alan Walker</p>
+    </div>
+  </div>
+
+  <div class="audio-controls">
+    <button id="prev-btn"><span class="material-icons">skip_previous</span></button>
+    <button id="play-btn"><span class="material-icons">play_circle_filled</span></button>
+    <button id="next-btn"><span class="material-icons">skip_next</span></button>
+  </div>
+
+  <audio id="audio-player" src="https://mdusmanansari.github.io/uMusic-Player/music/Ignite.mp3"></audio>
+</div>-->
+
+
+            <section class="music-controller" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+
+        <div class="music-controller__progress-bar">
+            <span class="music-controller__progress-bar-fill" style="width: 0%;"></span>
+        </div>
+
+        <div class="music-controller__list">
+
+                <div class="music-controller__item">
+                    <img src="img/Ignite.jpg" alt="" class="music-controller__img audio-image">
+                    <h3 class="music-artist-name audio-name" style="width:9rem;">Ignite</h3>
+                </div>
+
+                <div class="music-controller__item"> 
+
+                    <div class="music-controller__btn audio-prev-btn">
+                        <span class="material-icons">
+                            skip_previous
+                        </span>
+                        
+                    </div>
+
+                    <div class="music-controller__btn audio-play-pause-btn"> <span class="material-icons">
+                        play_circle_filled
+                    </span> </div>
+                    <div class="music-controller__btn audio-next-btn">
+                        <span class="material-icons">
+                            skip_next
+                        </span>
+    
+                    </div>
+                   
+                </div>
+                <div class="music-controller__item phone-disable">
+
+                    <div class="music-controller__btn audio-shuffle">
+                        <span class="material-icons">
+                            shuffle
+                         </span>
+                    </div>
+                    <div class="music-controller__btn audio-volume">
+                        <span class="material-icons">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="music-controller__btn audio-repeat">
+                        <span class="material-icons">
+                            repeat
+                         </span>
+                    </div>
+
+                </div>
+        </div>
+
+
+
+    </section>
+
+            
+
+        <script src="music.js"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
